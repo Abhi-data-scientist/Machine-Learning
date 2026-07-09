@@ -1,0 +1,20 @@
+1. line plot 
+	-> Time series Analysis
+	-> For analysis Trends (Area-Price)
+
+2. Scatter plot
+	-> 2 features kitne correlate kr rhe hai 
+
+3. Histogram
+	-> distribution check krne ke liye 
+	-> isme bars ya bins hote hai
+	-> normal, left skewed, right skewed
+
+4. Box-Plot
+	-> Outliers detaction 
+
+5. Bar-Plot
+	-> for category count 
+
+6. Pie-Chart
+	-> Tells how much does the share of each category 
