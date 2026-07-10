@@ -9,6 +9,7 @@
 	-> distribution check krne ke liye 
 	-> isme bars ya bins hote hai
 	-> normal, left skewed, right skewed
+	-> frequency btata hai 
 
 4. Box-Plot
 	-> Outliers detaction 
@@ -18,3 +19,11 @@
 
 6. Pie-Chart
 	-> Tells how much does the share of each category 
+
+
+---------------------------------------
+
+****Seaborn****
+
+-> advance version of matplotlib.
+-> Visualization tool which is built on the top of matplotlib.
