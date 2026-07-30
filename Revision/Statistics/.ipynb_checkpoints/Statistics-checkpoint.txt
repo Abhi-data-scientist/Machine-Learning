@@ -1,0 +1,69 @@
+**** Statics ***
+=> Stats is a mathematical science in which the data is analyzed 
+   and from that data the useful information is extracted.
+
+==>> Types
+1. Descriptive states
+2. Inferential stats
+
+==>> 1. Descriptive states
+-> In this stats we basically analyze the data (whole population) at once
+example -> Avg height of the students present into the class 
+
+==>> 2. Inferential stats
+-> In this stats we basically analyze the data on sample of the whole population
+example -> Avg height of Indian people 
+-> into this we basically extract samples(heights of the people from each of the stats)
+
+
+********************************************************************************************
+********************************************************************************************
+
+==>> 1. Descriptive states
+a. Measures of central tendency (mean, median, mode)
+b. Measures of dispersion (standard deviation, variance)
+c. Measures of Symmetricity (left skewness, right skewness)
+
+a. Measures of central tendency (mean, median, mode)
+-> Measures of central tendency are statistical measures used to find the central or typical value of a dataset.
+
+Mean(Arithmetic mean) -> ∑x/n
+Median(physical mid) -> ​sort first then find mid point 
+			. odd ->  (n+1)/2
+			. even -> ((n/2)+(n+1)/2)/2
+Mode -> Most frequent 
+
+
+** How to handle Missing values
+
+=> When we should use mean and median for the imputation ?
+-> Whenever any data is having outliers then we must have to use median 
+   if there no any outlier present then we can use median.
+
+=> When to drop a column when that column is having null values ? 
+-> When any numerical or categorical column is having null values 
+   more then 50% of the data.
+
+b. Measures of dispersion (standard deviation, variance)
+-> Measures of dispersion are statistical measures that describe how spread out or variable the values are in a dataset
+* Range -> Max - Min
+	 -> Outliers sensitive
+	 -> Range is used to find the distribution of data spread
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -24,6 +24,9 @@ a. Measures of central tendency (mean, median, mode)
 b. Measures of dispersion (standard deviation, variance)
 c. Measures of Symmetricity (left skewness, right skewness)
 
+********************************************************************************************
+********************************************************************************************
+
 a. Measures of central tendency (mean, median, mode)
 -> Measures of central tendency are statistical measures used to find the central or typical value of a dataset.
 
@@ -33,6 +36,8 @@ Median(physical mid) -> ​sort first then find mid point
 			. even -> ((n/2)+(n+1)/2)/2
 Mode -> Most frequent 
 
+********************************************************************************************
+********************************************************************************************
 
 ** How to handle Missing values
 
@@ -44,12 +49,60 @@ Mode -> Most frequent
 -> When any numerical or categorical column is having null values 
    more then 50% of the data.
 
-b. Measures of dispersion (standard deviation, variance)
+********************************************************************************************
+********************************************************************************************
+
+b. Measures of dispersion/Spread (standard deviation, variance)
 -> Measures of dispersion are statistical measures that describe how spread out or variable the values are in a dataset
+
 * Range -> Max - Min
 	 -> Outliers sensitive
 	 -> Range is used to find the distribution of data spread
 
+* Percentage and Percentile
+-> (No. of observation below that point/Total no. of observation)*100
+
+* Quartiles
+-> Quartiles are the cuts which generally cuts the data into the your equal parts
+-> q1 = n/4 -> 25%
+-> q2 = n/2 -> 50% -> (Median)
+-> q3 = 3n/4 -> 75%
+
+********************************************************************************************
+********************************************************************************************
+
+** How to detect outliers :=>
+--------------------------
+	Q1 = df["col"].quantile(0.25)
+	Q3 = df["col"].quantile(0.75)
+	
+	IQR = Inter Quartile Range
+	IQR = Q3-Q1
+	 
+	Lower = Q1-1.5*IQR
+	Upper = Q1+1.5*IQR
+
+   2 Techniques to handle outliers-> Removing and Capping
+
+   Q. What is outliers Capping ?
+	-> In this we generally replace the outliers values with the help of
+	   lower and upper cap 
+   
+   Q. Why we don't to remove outliers generally ? 
+	-> It can cause the data lose since only one column is having outliers
+	   but all the columns related to that row could be remove
+
+********************************************************************************************
+********************************************************************************************
+
+* Variance and standard Deviation 
+  Variance -> how much data have spread
+  Standard Deviation -> it tells that how much on an avg a data point is deviated from the mean 
+			It generally simplifies the variance in simple terms 
+
+Variance => (x-mean)**2/n
+STD => root(Variance)
+	
 
 
 
